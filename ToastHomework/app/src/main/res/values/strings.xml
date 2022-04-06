@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Toast Homework</string>
+    <string name="btn_linear_layout">Linear layout</string>
+    <string name="btn_relative_layout">Relative layout</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_homework">Homework</string>
+    <string name="button_height">60dp</string>
+    <string name="txt_description">
+        <b>Hướng dẫn sử dụng</b>
+        \n
+        Bạn có thể chọn 1 trong 3 lựa chọn sau để xem <i>Toast Application</i> với các layouts khác nhau
+    </string>
+    <string name="button_label_toast">Toast</string>
+    <string name="button_label_count">Count</string>
+    <string name="button_set_zero">Zero</string>
+    <string name="count_initial_value">0</string>
+    <string name="toast_content">Toast Hello World</string>
+</resources>
