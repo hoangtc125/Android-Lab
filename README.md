@@ -1,4 +1,4 @@
-# Bài tập cá nhân môn học **Phát triển ứng dụng và thiết bị di động** học kì 20212 - Đại học Bách Khoa Hà Nội
+# Bài tập cá nhân môn học `Phát triển ứng dụng và thiết bị di động` học kì 20212 - Đại học Bách Khoa Hà Nội
 
 `Trong mỗi folder là một bài tập (gồm source code và ảnh demo output)`
 
