@@ -8,3 +8,8 @@
 - ToastHomework
 
 (Làm quen với Layouts trong lập trình Android, thao tác với Toast, Button, Intent)
+
+## Bài tập tuần 3 gồm
+- DataImport
+
+(Nhập xuất dữ liệu)

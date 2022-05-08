@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="355dp"
+        android:layout_height="659dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lbName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên của bạn*" />
+
+            <EditText
+                android:id="@+id/ipName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Trần Công Hoàng"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName|text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/wname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Không được để trống"
+                android:textColor="#FF3B3B"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lbMssv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MSSV*" />
+
+            <EditText
+                android:id="@+id/ipMssv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="20194060"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/wmssv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Không được để trống"
+                android:textColor="#FF3B3B"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lbCCCD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CCCD*" />
+
+            <EditText
+                android:id="@+id/ipCCCD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="abcde"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/wcccd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Không được để trống"
+                android:textColor="#FF3B3B"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lbSdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SĐT*" />
+
+            <EditText
+                android:id="@+id/ipSdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="0000jqk"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/wsdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Không được để trống"
+                android:textColor="#FF3B3B"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lbEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email*" />
+
+            <EditText
+                android:id="@+id/ipEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="xyz"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/wemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Không được để trống"
+                android:textColor="#FF3B3B"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lbBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngày tháng năm sinh" />
+
+            <CalendarView
+                android:id="@+id/ipBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lbCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quê quán" />
+
+            <EditText
+                android:id="@+id/ipCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nam Định"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/lbAddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nơi ở hiện tại" />
+
+            <EditText
+                android:id="@+id/ipAddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Hà Nội"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/lbMajor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngành học hiện tại" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/ipKHMT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Khoa học máy tính" />
+
+                <RadioButton
+                    android:id="@+id/ipKTMT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kĩ thuật máy tính" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/lbNNLT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngôn ngữ lập trình" />
+
+            <CheckBox
+                android:id="@+id/ipC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C" />
+
+            <CheckBox
+                android:id="@+id/ipJava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java" />
+
+            <CheckBox
+                android:id="@+id/ipPy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Python" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <CheckBox
+                android:id="@+id/ipCf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tôi đồng ý điều khoản" />
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xác nhận" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
