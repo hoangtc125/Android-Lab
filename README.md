@@ -15,3 +15,7 @@
 (Nhập xuất dữ liệu)
 
 - Calculator
+
+## Bài tập tuần 10 gồm
+- Currency
+- Email
