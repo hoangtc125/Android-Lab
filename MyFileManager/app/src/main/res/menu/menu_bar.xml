@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/create_directory"
+        android:title="Tạo thư mục"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/create_file"
+        android:title="Tạo file"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/paste"
+        android:title="Dán"
+        app:showAsAction="never"/>
+
+</menu>

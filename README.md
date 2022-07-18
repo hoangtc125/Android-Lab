@@ -3,13 +3,17 @@
 `Trong mỗi folder là một bài tập (gồm source code và ảnh demo output)`
 
 ## Bài tập tuần 2 gồm
+
 - HelloToast
+
 - HelloWorld
+
 - ToastHomework
 
 (Làm quen với Layouts trong lập trình Android, thao tác với Toast, Button, Intent)
 
 ## Bài tập tuần 3 gồm
+
 - DataImport
 
 (Nhập xuất dữ liệu)
@@ -17,5 +21,11 @@
 - Calculator
 
 ## Bài tập tuần 10 gồm
+
 - Currency
+
 - Email
+
+## Bài tập tuần 15 gồm
+
+- Myfilemanager
