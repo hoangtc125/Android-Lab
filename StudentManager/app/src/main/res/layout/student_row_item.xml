@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/student_id_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="201940420" />
+
+        <TextView
+            android:id="@+id/student_full_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="ngo" />
+
+    </LinearLayout>
+</layout>
